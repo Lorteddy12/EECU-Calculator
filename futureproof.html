@@ -21,7 +21,7 @@
         <h1>
             Monthly Budget Calculator
         </h1>
-        <div class="steps">
+        <div class="steps"> 
             <div class="step active">
                 <div class="circle">1</div>
             </div>
@@ -34,16 +34,26 @@
                 <div class="circle">3</div>
             </div>
 
-            <div class="step">
+            <div class="step active">
                 <div class="circle">4</div>
             </div>
 
-            <div class="step">
+            <div class="step active">
                 <div class="circle">5</div>
             </div>
         </div>
     </header>
-    <button id="nextBtn" href="edu.html">Next</button><!--make sure to move this when you create another section to add it inside-->
+    <form>
+        <label for="savings">Savings</label>
+        <input type="text" placeholder="$" name="savings" class="expense">
+        <label for="retirement">Retirement</label>
+        <input type="text" placeholder="$" name="retirement" class="expense">
+        <label for="emergency">Emergency Fund</label>
+        <input type="text" placeholder="$" name="emergency" class="expense">
+</form>
+    <h3 class="greenish">Ready to see your results?</h3>
+    <a id="backBtn" href="edu.html">Back</a>
+    <a id="nextBtn" href="completion.html">Next</a><!--make sure to move this when you create another section to add it inside-->
     <footer id="main-footer">
         <img src="/images/eecu-logo.png">
     </footer>
